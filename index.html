@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        .button-container {
+            margin-top: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button-activate {
+            background-color: #007BFF;
+        }
+        .button-activate:hover {
+            background-color: #0056b3;
+        }
+        .button-delete {
+            background-color: #FF0000;
+        }
+        .button-delete:hover {
+            background-color: #CC0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestión de ONTs</h1>
+    <div class="button-container">
+        <a href="activar/activar.html" class="button button-activate">Activar ONT</a>
+        <a href="eliminar/eliminar.html" class="button button-delete">Eliminar ONT</a>
+    </div>
+</body>
+</html>
