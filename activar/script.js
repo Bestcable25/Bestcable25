@@ -22,7 +22,7 @@ document.getElementById('idForm').addEventListener('submit', function(event) {
     // Obtener los últimos 4 dígitos del número de serie y convertirlos a minúsculas
     let serialLast4 = serial.slice(-4).toLowerCase();
 
-    let ontAddCommand = `ONT ADD ${P} ${id} SN-AUTH "${serial}" OMCI ONT-LINEPROFILE-ID 10 ONT-SRVPROFILE-ID 10 DESC "Best_${dni}_${serialLast4}"`;
+    let ontAddCommand = `ONT ADD ${P} ${id} SN-AUTH "${serial}" OMCI ONT-LINEPROFILE-ID 10 ONT-SRVPROFILE-ID 10 DESC "Multimedia_${dni}_${serialLast4}"`;
 
     document.getElementById('ontAddCommand').innerText = ontAddCommand;
 
