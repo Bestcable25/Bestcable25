@@ -96,7 +96,7 @@ document.getElementById('generateCode6').addEventListener('click', function() {
     const [f, s, p] = fsp.split('/');
     const code = `
 interface gpon ${f}/${s}
-display ont optical-info ${ontId} all
+display ont optical-info ${p} all
 `.trim();
 
     document.getElementById('outputCode3').textContent = code;
@@ -116,8 +116,9 @@ document.getElementById('generateCode7').addEventListener('click', function() {
     const [f, s, p] = fsp.split('/');
     const code = `
 interface gpon ${f}/${s}
-display ont info summary ${ontId}
+display ont info summary ${p}
 `.trim();
 
     document.getElementById('outputCode3').textContent = code;
+
 });
