@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestionar ONT</h1>
+
+        <div class="form-group">
+            <label for="serialNumber">Número de Serie:</label>
+            <input type="text" id="serialNumber" placeholder="Ingrese el número de serie">
+            <button id="generateCode1">Obtener F/S/P y ID</button>
+            <pre id="outputCode1"></pre>
+        </div>
+
+        <div class="form-group">
+            <label for="fsp">F/S/P:</label>
+            <input type="text" id="fsp" placeholder="F/S/P">
+<p>
+          <label for="ontId">ID:</label>
+          
+            <input type="text" id="ontId" placeholder=" Ingrese ID"
+   <p>
+                      <button id="generateCode2"> Obtener ID General</button>
+            <pre id="outputCode2"></pre>
+        </div>
+
+        <div class="form-group">
+            <label for="generalId">ID General:</label>
+            <input type="text" id="generalId" placeholder="Ingrese el ID General">
+          <p>  
+          <button id="generateCode3">Desactivar</button>
+            <button id="generateCode4">Activar</button>
+            <button id="generateCode5">Reiniciar</button>
+            <button id="generateCode6">niveles opticos</button>
+            <button id="generateCode7">niveles opticos y datos</button>
+          </p>  
+          <pre id="outputCode3"></pre>
+          
+        </div>
+
+        <footer>
+            <p>Realizado por: J.Salcedo</p>
+        </footer>
+    </div>
+<a href="../index.html" class="back-link">Volver a la página principal</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

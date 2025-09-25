@@ -1,0 +1,79 @@
+/* ==== Estilo general de botones ==== */
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* ==== Botón principal (Obtener F/S/P y ID) ==== */
+#generateCode1 {
+    background-color: Black;
+}
+#generateCode1:hover {
+    background-color: darkgreen;
+}
+
+/* ==== Botón Obtener ID General ==== */
+#generateCode2 {
+    background-color: Black;
+}
+#generateCode2:hover {
+    background-color: darkcyan;
+}
+
+/* ==== Desactivar ==== */
+#generateCode3 {
+    background-color: red;
+}
+#generateCode3:hover {
+    background-color: darkred;
+}
+
+/* ==== Activar ==== */
+#generateCode4 {
+    background-color: green;
+}
+#generateCode4:hover {
+    background-color: darkgreen;
+}
+
+/* ==== Reiniciar ==== */
+#generateCode5 {
+    background-color: orange;
+}
+#generateCode5:hover {
+    background-color: darkorange;
+}
+
+/* ==== Niveles ópticos ==== */
+#generateCode6 {
+    background-color: blue;
+}
+#generateCode6:hover {
+    background-color: darkblue;
+}
+
+/* ==== Niveles ópticos y datos ==== */
+#generateCode7 {
+    background-color: purple;
+}
+#generateCode7:hover {
+    background-color: indigo;
+}
+
+pre {
+    background: #f4f4f4;       /* Fondo gris claro */
+    border: 1px solid #ccc;    /* Borde gris */
+    padding: 10px;             /* Espacio interno */
+    border-radius: 6px;        /* Bordes redondeados */
+    font-family: Arial, sans-serif;   /* Tipo consola */
+    font-size: 18px;           /* Tamaño 14px */
+    white-space: pre-wrap;     /* Mantiene saltos de línea */
+    word-wrap: break-word;     /* Ajusta el texto si es muy largo */
+    margin-top: 10px;
+}
