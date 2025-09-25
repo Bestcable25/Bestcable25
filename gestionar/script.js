@@ -120,5 +120,4 @@ display ont info summary ${p}
 `.trim();
 
     document.getElementById('outputCode3').textContent = code;
-
 });
